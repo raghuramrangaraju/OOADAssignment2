@@ -41,7 +41,7 @@ public class TestGuitar {
 		assertEquals(guitarSpec1, tempGuitar.getGuitarSpec()); // Comparing the newly added guitar with the guitarSpec1 object.
 		
 
-		// For the guitarSearch method
+		// For the guitarSearch function
 		GuitarSpec guitarSpec2 = new GuitarSpec(Builder.Fender,
 				BackWoodandtopWood.Alder, BackWoodandtopWood.Alder,
 				Type.Electric, "Stratocastor");

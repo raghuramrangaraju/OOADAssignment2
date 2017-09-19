@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * This class implements properties and functions of inventory
+ * @author Raghuram Rangaraju
  */
 
 public class Inventory {
@@ -50,10 +51,10 @@ public class Inventory {
 	}
 
 	/**
-	 * The function gets searchGuitar object and compare with the guitarSpec match and getPrice function. 
+	 * The function gets searchGuitar object and compares with the guitarSpec match and getPrice function. 
 	 *
 	 * @param searchGuitar
-	 * @return guitar object 
+	 * @return guitar List 
 	 */
 	public List<Guitar> search(Guitar searchGuitar) {
 		List<Guitar> guitarsList = new LinkedList(); 

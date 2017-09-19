@@ -3,7 +3,7 @@ package OOAD.HW2.Guitar;
 /**
  * This class implements the properties and functions of Guitar.
  *
- * @author raghuram
+ * @author Raghuram Rangaraju
  */
 public class Guitar {
 

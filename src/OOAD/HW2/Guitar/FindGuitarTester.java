@@ -4,7 +4,6 @@ import OOAD.HW2.Guitar.GuitarSpec;
 import OOAD.HW2.Guitar.GuitarSpec.*;
 
 /**
- * Class: Object Oriented Analysis and Design
  * Assignment: 2
  * Student: Raghuram Rangaraju
  * ID: @01377909
@@ -50,7 +49,7 @@ public class FindGuitarTester {
 	}
 
 	/**
-	 * The function initializeInventory adds up the new guitars into the inventory.
+	 * initializeInventory adds up the new guitars into the inventory.
 	 *
 	 * @param inventory
 	 */

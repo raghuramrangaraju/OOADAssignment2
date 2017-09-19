@@ -1,7 +1,7 @@
 package OOAD.HW2.Guitar;
 
 /**
- * This class implements properties and functions of GuitarSpec. And enum for attributes
+ * This class implements properties and functions of GuitarSpec. And enum for the attributes
  * @author Raghuram Rangaraju
  */
 public class GuitarSpec {
