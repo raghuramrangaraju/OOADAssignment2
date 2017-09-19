@@ -5,17 +5,15 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * This class implements properties and behavior of inventory
- *
- * @author raghuram
+ * This class implements properties and functions of inventory
  */
+
 public class Inventory {
 
 	private List<Guitar> guitars;
 
 	/**
-	 * This is the Constructor for the class Inventory and initialise guitars
-	 * linkedlist
+	 * Initialize guitars list
 	 */
 	public Inventory() {
 		guitars = new LinkedList();
@@ -52,7 +50,7 @@ public class Inventory {
 	}
 
 	/**
-	 * The function gets searchGuitar object
+	 * The function gets searchGuitar object and compare with the guitarSpec match and getPrice function. 
 	 *
 	 * @param searchGuitar
 	 * @return guitar object 

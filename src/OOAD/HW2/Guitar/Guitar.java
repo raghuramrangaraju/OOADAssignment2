@@ -54,7 +54,7 @@ public class Guitar {
 
 	/**
 	 * 
-	 * @return
+	 * @return guitarSpec
 	 */
 	public GuitarSpec getGuitarSpec() {
 		return guitarSpec;

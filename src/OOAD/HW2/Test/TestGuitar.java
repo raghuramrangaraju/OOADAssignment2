@@ -9,10 +9,12 @@ import OOAD.HW2.Guitar.Guitar;
 import OOAD.HW2.Guitar.GuitarSpec.BackWoodandtopWood;
 import OOAD.HW2.Guitar.GuitarSpec.Builder;
 import OOAD.HW2.Guitar.GuitarSpec.Type;
-
 import org.junit.Test;
 
-
+/**
+ * The class performs unit test for the Inventory class. 
+ * @author Raghuram Rangaraju
+ */
 public class TestGuitar {
 
 	Inventory inventory = new Inventory();

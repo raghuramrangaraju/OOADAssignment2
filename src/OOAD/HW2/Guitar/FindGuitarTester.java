@@ -1,21 +1,21 @@
 package OOAD.HW2.Guitar;
-
 import java.util.*;
 import OOAD.HW2.Guitar.GuitarSpec;
 import OOAD.HW2.Guitar.GuitarSpec.*;
 
 /**
- * The class has the main function
- *
- * @author raghuram
+ * Class: Object Oriented Analysis and Design
+ * Assignment: 2
+ * Student: Raghuram Rangaraju
+ * ID: @01377909
  */
 public class FindGuitarTester {
 
 	/**
-	 * main function creates new inventory and initialize new object
-	 * whatErinLikeSpecs of class GuitarSpec. And the object guitarErinLikes is searched on the
-	 * inventory if the return type is not null it goes into for loop and
-	 * prints output.
+	 * Main function creates a new inventory and initialize new object
+	 * whatErinLikeSpecs of class GuitarSpec. And the object guitarErinLikes is
+	 * searched on the inventory if the return type is not null it goes into for
+	 * loop and prints output.
 	 *
 	 * @param args
 	 */
@@ -31,24 +31,26 @@ public class FindGuitarTester {
 		Guitar guitarErinLikes = new Guitar("1234", 5495.95, whatErinLikeSpecs);
 
 		List guitarlist = inventory.search(guitarErinLikes);
-
-		for (Iterator i = guitarlist.iterator(); i.hasNext();) {
-			Guitar guitar = (Guitar) i.next();
-			System.out.println("Erin, you might like this "
-					+ guitar.getGuitarSpec().getBuilder() + " "
-					+ guitar.getGuitarSpec().getModel() + " "
-					+ guitar.getGuitarSpec().getType() + " guitar:\n   "
-					+ guitar.getGuitarSpec().getBackWood()
-					+ " back and sides,\n   "
-					+ guitar.getGuitarSpec().gettopWood()
-					+ " top.\nYou can have it for only $" + guitar.getPrice()
-					+ "!");
+		if (guitarlist != null) {
+			for (Iterator i = guitarlist.iterator(); i.hasNext();) {
+				Guitar guitar = (Guitar) i.next();
+				System.out.println("Erin, you might like this "
+						+ guitar.getGuitarSpec().getBuilder() + " "
+						+ guitar.getGuitarSpec().getModel() + " "
+						+ guitar.getGuitarSpec().getType() + " guitar:\n   "
+						+ guitar.getGuitarSpec().getBackWood()
+						+ " back and sides,\n   "
+						+ guitar.getGuitarSpec().gettopWood()
+						+ " top.\nYou can have it for only $"
+						+ guitar.getPrice() + "!");
+			}
+		} else {
+			System.out.println("Sorry, Erin, we have nothing for you.");
 		}
 	}
 
 	/**
-	 * The function initializeInventory adds up the new guitars into the
-	 * inventory.
+	 * The function initializeInventory adds up the new guitars into the inventory.
 	 *
 	 * @param inventory
 	 */

@@ -1,8 +1,8 @@
 package OOAD.HW2.Guitar;
 
 /**
- *
- * @author raghuram
+ * This class implements properties and functions of GuitarSpec. And enum for attributes
+ * @author Raghuram Rangaraju
  */
 public class GuitarSpec {
 
@@ -140,7 +140,7 @@ public class GuitarSpec {
     }
 
     /**
-     *
+     * Checks the specs if anyone attribute matches returns true. else false
      * @param specs
      * @return true or false
      */
